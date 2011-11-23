@@ -1,0 +1,8 @@
+.extra-wrap {zoom:1;}
+
+#faded ul.controls li a {
+	height:33px;
+}
+#faded ul.controls li a.prev:hover {
+	background-position:0 -67px;
+}
