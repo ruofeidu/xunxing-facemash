@@ -1,0 +1,204 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head>
+	<title>Facemash - 寻星网</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<link href="../Public/style.css" rel="stylesheet" type="text/css" />
+	<link href="../Public/layout.css" rel="stylesheet" type="text/css" />
+	<script src="../Public/js/jquery-1.4.2.min.js" type="text/javascript"></script>
+	<script src="../Public/js/jquery.faded.js" type="text/javascript"></script>
+	<script src="../Public/js/tabs.js" type="text/javascript"></script>
+	<script src="../Public/js/script.js" type="text/javascript"></script>
+	<!--[if lt IE 7]>
+		<link href="ie_style.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="js/ie_png.js"></script>
+		<script type="text/javascript">
+			ie_png.fix('.png, #header, #header .nav a, #faded strong, #faded .controls a');
+		</script>
+	<![endif]-->
+</head>
+
+<body id="page1">
+	<!-- <div class="tail-top"> -->
+	<div id="main">
+	<!-- header -->
+		<div id="header">
+			<!--
+			<form action="" id="search-form">
+				<fieldset>
+					<input type="text" class="text" value="Site Search" onfocus="if(this.value=='Site Search'){this.value=''}" onblur="if(this.value==''){this.value='Site Search'}"/><input type="submit" class="submit" value="" />
+				</fieldset>
+			</form>
+			-->
+			<h1><a href="#">寻星</a></h1>
+			<!-- .nav -->
+			<ul class="nav">
+				<li><a href="{:U("Index/index")}?school=ecnu" class="current">华东师范大学<span>ECNU</span></a></li>
+				<li><a href="{:U("Index/index")}?school=shisu">上海外国语大学<span>SHISU</span></a></li>
+				<li><a href="{:U("Index/index")}?school=thu">清华大学<span>THU</span></a></li>
+				<li><a href="{:U("Index/index")}?school=pku">北京大学<span>PKU</span></a></li>
+				<li><a href="{:U("Index/index")}?school=sjtu">上海交通大学<span>SJTU</span></a></li>
+				<li><a href="{:U("Index/index")}?school=fdu">复旦大学<span>FDU</span></a></li>
+			</ul>
+			<!-- /.nav -->
+			<!-- faded slider -->
+			<div id="faded">
+				<ul>
+				<li>
+					<img src="../Public/images/slide1.jpg" alt="" />
+					<strong>Enlightment</strong>
+					<a href="#" class="button-alt">click here</a>
+				</li>
+				<li>
+					<img src="../Public/images/slide2.jpg" alt="" />
+					<strong>Relax</strong>
+					<a href="#" class="button-alt">click here</a>
+				</li>
+				<li>
+					<img src="../Public/images/slide3.jpg" alt="" />
+					<strong>University</strong>
+					<a href="#" class="button-alt">click here</a>
+				</li>
+				</ul>
+				<ul class="controls">
+					<li><a href="#" class="prev"></a></li>
+					<li><a href="#" class="next"></a></li>
+				</ul>
+			</div>
+			<!-- //faded slider -->
+		</div>
+		
+		<!-- content -->
+		<div id="content">
+		<!-- tabs -->
+		<div class="wrapper">
+			<div class="wrapper">
+				<ul class="tabs">
+				  <li class="first"><a href="#tab1">寻星</a></li>
+				  <li><a href="#tab2">新闻</a></li>
+				  <li><a href="#tab3">排名</a></li>
+				  <li><a href="#tab4">关于</a></li>
+				</ul>
+			</div>
+			
+			<div class="tab_container">
+				<div id="tab1" class="tab_content">
+					<div class="wrapper">
+					<img class="img-indent" src="../Public/images/1page-img1.jpg" alt="" />
+						<div class="extra-wrap">
+						<p><a href="{:U("Index/rank")}?school=ecnu"> 华东师范大学 TOP 10!</a></p>
+						<p><a href="{:U("Index/rank")}?school=shisu"> 上海外国语大学 TOP 10!</a> </p>
+						<p><a href="{:U("Index/rank")}?school=thu"> 清华大学 TOP 10!</a> </p>
+						<p> <a href="{:U("Index/rank")}?school=pku"> 北京大学 TOP 10!</a> </p>
+						<p><a href="{:U("Index/rank")}?school=sjtu">上海交通大学 TOP 10!</a> </p>
+						<p> <a href="{:U("Index/rank")}?school=fdu"> 复旦大学 TOP 10!</a> </p>
+						<div class="wrapper"><a href="#" class="link1"><b>read more</b></a></div>
+						</div>
+					</div>
+				</div>
+				<div id="tab2" class="tab_content">
+					<div class="wrapper">
+					<img class="img-indent" src="../Public/images/3page-img1.jpg" alt="" />
+					<div class="extra-wrap">
+						<p>寻星网旨在课余时间丰富大家生活</p>
+						<div class="wrapper"><a href="#" class="link1"><b>read more</b></a></div>
+					</div>
+					</div>
+				</div>
+				
+				<div id="tab3" class="tab_content">
+					<div class="wrapper">
+					<img class="img-indent" src="../Public/images/4page-img1.jpg" alt="" />
+					<div class="extra-wrap">
+					<p>寻星网旨在课余时间丰富大家生活</p>
+					<div class="wrapper"><a href="#" class="link1"><b>read more</b></a></div>
+					</div>
+					</div>
+				</div>
+				
+				<div id="tab4" class="tab_content">
+					<div class="wrapper">
+					<img class="img-indent" src="../Public/images/4page-img1.jpg" alt="" />
+					<div class="extra-wrap">
+					<div class="wrapper">
+					TODO
+					<div class="wrapper"><a href="#" class="link1"><b>read more</b></a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- .box -->
+		
+		<div class="box">
+		
+			<div class="right-bot-corner">
+			<div class="left-bot-corner">
+				<div class="inner">
+				<div class="line-ver">
+				  <div class="wrapper line-ver1">
+					<div class="col-1">
+					  <h2>Algorithm</h2>
+					  <ul class="list1">
+						<li><a href="#">Machine Learning</a></li>
+						<li><a href="#">Supervised</a></li>
+						<li><a href="#">Facemesh</a></li>
+						<li><a href="#">Creative ideas</a></li>
+						<li><a href="#">Regulatory Support</a></li>
+						<li class="last"><a href="#">Scientific research</a></li>
+					  </ul>
+					  <div class="wrapper"><a href="#" class="link1"><b>read more</b></a></div>
+					</div>
+					
+					<div class="col-2">
+					  <h2>Rank</h2>
+					  <ul class="products-list">
+						<li>
+						  <img src="../Public/images/icon1.jpg" alt="" />
+						  <div class="extra-wrap">
+							<p>based on your votes</p>
+							<div class="wrapper"><a href="#" class="link1"><b>read more</b></a></div>
+						  </div>
+						</li>
+						<li class="last">
+						  <img src="../Public/images/icon2.jpg" alt="" />
+						  <div class="extra-wrap">
+							<p>based on your votes</p>
+							<div class="wrapper"><a href="#" class="link1"><b>read more</b></a></div>
+						  </div>
+						</li>
+					  </ul>
+					</div>
+					<div class="col-3">
+					  <h2>Cooperation</h2>
+					  <p>YepYao</p>
+					  <p>Starea</p>
+					  <div class="wrapper"><a href="#" class="link1"><b>read more</b></a></div>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+			<!-- /.box -->
+			<!-- .banners -->
+			<!--
+			<ul class="banners">
+				<li><a href="#"><img src="images/banner1.gif" alt="" /></a></li>
+				<li><a href="#"><img src="images/banner2.gif" alt="" /></a></li>
+				<li><a href="#"><img src="images/banner3.gif" alt="" /></a></li>
+				<li class="last"><a href="#"><img src="images/banner4.gif" alt="" /></a></li>
+			</ul>
+			-->
+			<!-- /.banners -->
+		</div>
+		<!-- footer -->
+		<div id="footer">
+			COPYRIGHT &copy; 2011 - 2012 | <a href="#">Privacy Policy</a>
+		</div>
+	</div>
+	</div>
+</body>
+</html>
