@@ -23,40 +23,40 @@
 	<div id="main">
 	<div id="header">
 	<div style="width: 800px;margin: 0 auto;text-align: center;">
-		<h2><b style="color:white;">Facemash-test Beta PK!</b></h2>
-		<h3><b style="color:red;">Choose the More Beautiful One!</b><h3>
-		<h4><b style="color:grey;">School:{$school}</b> </h4>
-		<p><a href="{:U("Index/rank")}?school={$school}"><font color=yellow>猛击实时TOP10</font></a></p>
+		<h2><b style="color:white;">寻星 Alpha</b></h2>
+		<h4><b style="color:grey;">学校:{$school} </b> </h4>
+		<h3><b style="color:red;">Which is the MORE beautiful girl?</b><h3>
+		<input onclick="window.location.reload();" type="button" value="弃权票" name="Button1"/>
+		<!--<p><a href="{:U("Index/rank")}?school={$school}"><font color=orange>弃权，换下一组！</font></a></p>-->
 			<div style="height:400px;">
 				<form action="{:U("Index/choose")}" method="post">
 				<input type="hidden" value="{$school}" name="school"/>
 				<div style="width:50%;float:left;">
 					<p><img src="{$user1.mainurl}"/></p>
 					<!--<p><b>SID:</b> {$user1.sid}</p>-->
-					<p style="color:white;"><b>Birthday:</b> {$user1.birthday}</p>
+					<p style="color:white;"><b>生日:</b> {$user1.birthday}</p>
 					<p><input type="submit" value="I Love This!" name="left"/></p>
 					<input type="hidden" value="{$user1.sid}" name="leftid"/>
 				</div>
 				<div style="width:50%;float:left;">
 					<p><img src="{$user2.mainurl}"/></p>
 					<!--<p><b>SID:</b> {$user2.sid}</p>-->
-					<p style="color:white;"><b>Birthday:</b> {$user2.birthday}</p>
+					<p style="color:white;"><b>生日:</b> {$user2.birthday}</p>
 					<p><input type="submit" value="I Love This!" name="right"/></p>
 					<input type="hidden" value="{$user2.sid}" name="rightid"/>
 				</div>
 				</form>
 			</div>
-			
-		</div>
+		
+	</div>
 	</div>
 	
 	<div id="content" align="center">
 	<p><a href="{:U("Index/rank")}?school={$school}"><font color=yellow>猛击实时TOP10</font></a></p>
-		<p><a href="{:U("Index/index")}"><font color=yellow>返回首页</font></a></p>
+		<p><a href="{:U("Index/index")}"><font color=yellow>返回寻星首页</font></a></p>
 	</div>
 	<div id="footer">
-		
-			COPYRIGHT &copy; 2011 - 2012 | <a href="#">Privacy Policy</a>
+			COPYRIGHT XUNXING &copy; 2011 - 2012 | <a href="#">Privacy Policy</a>
 	</div>
 	</div>
 </body>

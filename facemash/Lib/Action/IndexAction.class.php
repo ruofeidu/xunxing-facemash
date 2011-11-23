@@ -36,7 +36,8 @@ class IndexAction extends Action{
 		}
 	}
 	public function choose(){
-		print_r($_POST);
+		echo "Success! ";
+		//print_r($_POST);
 		if (isset($_POST['school']) && $_POST['school']!='' && isset($_POST['leftid']) && isset($_POST['rightid']) &&(isset($_POST['left']) || isset($_POST['right'])) ){
 			$school=$_POST['school'];
 			$model = M($school);
@@ -53,10 +54,10 @@ class IndexAction extends Action{
 				$s1=0;
 				$s2=1;
 			}
-			echo $user1['points'].' '.$user2['points'];
+			//echo $user1['points'].' '.$user2['points'];
 			$user1['points'] += round(32*($s1-$e1));
 			$user2['points'] += round(32*($s2-$e2));
-			echo $user1['points'].' '.$user2['points'];
+			//echo $user1['points'].' '.$user2['points'];
 			$user1['rounds']++;
 			$user2['rounds']++;
 			$model->where('sid ='.$user1['sid'])->save($user1);
